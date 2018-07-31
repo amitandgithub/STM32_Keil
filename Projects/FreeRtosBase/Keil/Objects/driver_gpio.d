@@ -1,0 +1,11 @@
+.\objects\driver_gpio.o: ..\Driver\src\Driver_GPIO.c
+.\objects\driver_gpio.o: ..\Driver\inc\Driver_GPIO.h
+.\objects\driver_gpio.o: ..\Driver\inc\Driver_Common.h
+.\objects\driver_gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\driver_gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\driver_gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\driver_gpio.o: ..\Lib\STM32F10xFWLib\inc\stm32f10x_gpio.h
+.\objects\driver_gpio.o: ..\Lib\STM32F10xFWLib\inc\stm32f10x_map.h
+.\objects\driver_gpio.o: ..\..\FreeRtosBase\stm32f10x_conf.h
+.\objects\driver_gpio.o: ..\Lib\STM32F10xFWLib\inc\stm32f10x_type.h
+.\objects\driver_gpio.o: ..\Lib\STM32F10xFWLib\inc\cortexm3_macro.h

@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+".\objects\stm32f10x.o"
+".\objects\cortexm3_macro_rvds.o"
+".\objects\main.o"
+".\objects\list.o"
+".\objects\queue.o"
+".\objects\tasks.o"
+".\objects\timers.o"
+".\objects\heap_2.o"
+".\objects\port.o"
+".\objects\stm32f10x_systick.o"
+".\objects\stm32f10x_nvic.o"
+".\objects\stm32f10x_rcc.o"
+".\objects\stm32f10x_gpio.o"
+".\objects\stm32f10x_exti.o"
+".\objects\led_task.o"
+".\objects\driver_i2c.o"
+".\objects\driver_gpio.o"
+--strict --scatter ".\Objects\FreeRtosBase.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\FreeRtosBase.map" -o .\Objects\FreeRtosBase.axf

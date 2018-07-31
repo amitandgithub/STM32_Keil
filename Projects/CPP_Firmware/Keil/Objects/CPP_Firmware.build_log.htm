@@ -1,0 +1,160 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: amit ch, nxp, LIC=9N0BS-LZUGL-D3WM3-ADKSP-QK6DY-3RBVM
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.25.2.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.9
+Assembler:       Armasm.exe V6.9
+Linker/Locator:  ArmLink.exe V6.9
+Library Manager: ArmAr.exe V6.9
+Hex Converter:   FromElf.exe V6.9
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DCM.DLL V1.17.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.35.1.0
+ 
+<h2>Project:</h2>
+C:\Amit Caudhary\STM32_Keil\Projects\CPP_Firmware\Keil\CPP_Firmware.uvprojx
+Project File Date:  06/10/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.9', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+assembling cortexm3_macro_rvds.s...
+assembling startup_stm32f10x_md.s...
+compiling system_stm32f10x.c...
+../App/Src/main.cpp(7): error: 'SysTickTimer.hpp' file not found
+#include"SysTickTimer.hpp"
+        ^~~~~~~~~~~~~~~~~~
+1 error generated.
+compiling main.cpp...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_gpio.c...
+compiling misc.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_i2c.c...
+ArmClang.exe: error: no such file or directory: '../HAL/src/ClockManager.cpp'
+ArmClang.exe: error: no input files
+compiling ClockManager.cpp...
+../HAL/src/ControlScreen.cpp(8): error: 'ControlScreen.hpp' file not found
+#include <ControlScreen.hpp>
+         ^~~~~~~~~~~~~~~~~~~
+1 error generated.
+compiling ControlScreen.cpp...
+ArmClang.exe: error: no such file or directory: '../HAL/src/DS3231.cpp'
+ArmClang.exe: error: no input files
+compiling DS3231.cpp...
+ArmClang.exe: error: no such file or directory: '../HAL/src/Gpio.cpp'
+ArmClang.exe: error: no input files
+compiling Gpio.cpp...
+ArmClang.exe: error: no such file or directory: '../HAL/src/GpioOutput.cpp'
+ArmClang.exe: error: no input files
+compiling GpioOutput.cpp...
+ArmClang.exe: error: no such file or directory: '../HAL/src/GpioInput.cpp'
+ArmClang.exe: error: no input files
+compiling GpioInput.cpp...
+../Test/src/Test.cpp(4): warning: In file included from...
+../Test/inc\Test.h(20): error: 'GpioInput.hpp' file not found
+#include "GpioInput.hpp"
+         ^~~~~~~~~~~~~~~
+1 error generated.
+compiling Test.cpp...
+ArmClang.exe: error: no such file or directory: '../HAL/src/HwButton.cpp'
+ArmClang.exe: error: no input files
+compiling HwButton.cpp...
+ArmClang.exe: error: no such file or directory: '../HAL/src/HwButtonIntr.cpp'
+ArmClang.exe: error: no input files
+compiling HwButtonIntr.cpp...
+ArmClang.exe: error: no such file or directory: '../HAL/src/I2CDriver.cpp'
+ArmClang.exe: error: no input files
+compiling I2CDriver.cpp...
+ArmClang.exe: error: no such file or directory: '../HAL/src/I2c.cpp'
+ArmClang.exe: error: no input files
+compiling I2c.cpp...
+ArmClang.exe: error: no such file or directory: '../HAL/src/INA219.cpp'
+ArmClang.exe: error: no input files
+compiling INA219.cpp...
+ArmClang.exe: error: no such file or directory: '../HAL/src/InterruptManager.cpp'
+ArmClang.exe: error: no input files
+compiling InterruptManager.cpp...
+ArmClang.exe: error: no such file or directory: '../HAL/src/Led.cpp'
+ArmClang.exe: error: no input files
+compiling Led.cpp...
+ArmClang.exe: error: no such file or directory: '../HAL/src/Line.cpp'
+ArmClang.exe: error: no input files
+compiling Line.cpp...
+../HAL/src/HwStopWatch.cpp(3): warning: In file included from...
+../HAL/inc\HwStopWatch.hpp(14): error: 'SysTickTimer.hpp' file not found
+#include "SysTickTimer.hpp"
+         ^~~~~~~~~~~~~~~~~~
+1 error generated.
+compiling HwStopWatch.cpp...
+ArmClang.exe: error: no such file or directory: '../HAL/src/Nokia5110LCD.cpp'
+ArmClang.exe: error: no input files
+compiling Nokia5110LCD.cpp...
+ArmClang.exe: error: no such file or directory: '../HAL/src/Menu.cpp'
+ArmClang.exe: error: no input files
+compiling Menu.cpp...
+ArmClang.exe: error: no such file or directory: '../HAL/src/Peripheral.cpp'
+ArmClang.exe: error: no input files
+compiling Peripheral.cpp...
+ArmClang.exe: error: no such file or directory: '../HAL/src/Page.cpp'
+ArmClang.exe: error: no input files
+compiling Page.cpp...
+ArmClang.exe: error: no such file or directory: '../HAL/src/PortManager.cpp'
+ArmClang.exe: error: no input files
+compiling PortManager.cpp...
+ArmClang.exe: error: no such file or directory: '../HAL/src/Queue.cpp'
+ArmClang.exe: error: no input files
+compiling Queue.cpp...
+ArmClang.exe: error: no such file or directory: '../HAL/src/SpiDriver.cpp'
+ArmClang.exe: error: no input files
+compiling SpiDriver.cpp...
+ArmClang.exe: error: no such file or directory: '../HAL/src/Screen.cpp'
+ArmClang.exe: error: no input files
+compiling Screen.cpp...
+ArmClang.exe: error: no such file or directory: '../HAL/src/SysTickTimer.cpp'
+ArmClang.exe: error: no input files
+compiling SysTickTimer.cpp...
+ArmClang.exe: error: no such file or directory: '../HAL/src/UI.cpp'
+ArmClang.exe: error: no input files
+compiling UI.cpp...
+../HAL/src/StopWatch.cpp(3): warning: In file included from...
+../HAL/inc\StopWatch.hpp(14): error: 'SysTickTimer.hpp' file not found
+#include "SysTickTimer.hpp"
+         ^~~~~~~~~~~~~~~~~~
+1 error generated.
+compiling StopWatch.cpp...
+../HAL/src/Time.cpp(3): warning: In file included from...
+../HAL/inc\Time.hpp(14): error: 'SysTickTimer.hpp' file not found
+#include "SysTickTimer.hpp"
+         ^~~~~~~~~~~~~~~~~~
+1 error generated.
+compiling Time.cpp...
+".\Objects\CPP_Firmware.axf" - 52 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
